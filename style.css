@@ -34,16 +34,16 @@ header{
 nav{
     grid-area: 2/2/3/3;
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     background-color: black;
 
     text-align: center;
     
     border: 2px solid black;
     border-radius: 3px
-}
-
-ul{
-
 }
 
 a:active, a:hover{
@@ -71,4 +71,17 @@ aside{
 
 main{
     grid-area: 3/2/4/3;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+    text-align: center;
+    color: #fbfdff;
+    
+    border: 2px solid black;
+    border-radius: 3px
 }
