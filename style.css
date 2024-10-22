@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 15vh 15vh 70vh 15vh;
+}
+
+.loga{
+    grid-area: 1/1/2/2;
+}
+
+header{
+    grid-area: 1/2/2/3;
+}
+
+nav{
+    grid-area: 2/2/3/3;
+}
+
+aside{
+    grid-area: 2/1/5/2;
+}
+
+main{
+    grid-area: 2/2/4/3;
+}
