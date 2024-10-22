@@ -33,7 +33,7 @@ header{
 
 nav{
     grid-area: 2/2/3/3;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,6 +71,17 @@ aside{
 
 main{
     grid-area: 3/2/4/3;
+
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.album{
+    max-width: 30%;
 }
 
 footer{
